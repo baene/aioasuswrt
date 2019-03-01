@@ -13,7 +13,7 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 __author__ = 'Magnus Knutas'
-VERSION = 'custom'
+VERSION = 'master'
 
 setup(
     name='aioasuswrt',
@@ -22,8 +22,8 @@ setup(
     setup_requires=['setuptools-markdown',
                     'pytest-runner'],
     long_description_markdown_filename='README.md',
-    url='https://github.com/kennedyshead/aioasuswrt',
-    download_url='https://github.com/kennedyshead/aioasuswrt/archive/%s.tar.gz' % VERSION,
+    url='https://github.com/baene/aioasuswrt',
+    download_url='https://github.com/baene/aioasuswrt/archive/%s.tar.gz' % VERSION,
     author=__author__,
     author_email='magnusknutas@gmail.com',
     classifiers=[
